@@ -44,7 +44,7 @@ npm run preview
 docker build -t colorlake:latest .
 
 # 运行容器
-docker run -d -p 8080:80 --name colorlake colorlake:latest
+docker run -d -p 8080:80 --name colorlake ghcr.io/chjtxwd/colorlake:latest
 
 # 或使用 docker-compose
 docker-compose up -d
